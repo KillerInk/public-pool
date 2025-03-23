@@ -28,7 +28,7 @@ export class ClientEntity extends TrackedEntity {
 
 
 
-    @Column({ type: 'datetime', transformer: new DateTimeTransformer() })
+    @Column({ type: 'datetime'})
     startTime: Date;
 
     @Column({ type: 'real', default: 0 })
